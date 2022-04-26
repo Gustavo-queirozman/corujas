@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+.header{
+    position: absolute;
+    width: 100vw;
+    height: 5.5vw;
+    border: 0px solid white;
+    background-color:white;
+    box-shadow: #e2e2e2 2px 3px 3px;
+}
+.logo{
+    float: left;
+    color: white;
+    font-size: 22px;
+    line-height: 80px;
+    padding: 0 6px;
+    margin-left: 2%;    
+}
+img{
+    height: 8vh;
+    width: 15vw;
+}
+.menu{
+    float: right;
+    line-height: 45px;
+    margin: 0px;
+    margin-right: 2%;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    padding: 0 15px;
+}
+

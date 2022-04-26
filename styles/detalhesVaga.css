@@ -1,0 +1,116 @@
+@media screen and (max-width: 1023px) {
+    header.header{
+        display: none;
+    }
+    nav {
+        display: flex;
+        margin-left: 3%;
+        height: auto;
+        background-color: none;
+    }
+    .flex-container span {
+        margin-top: 7vw;
+    }
+    .flex-container {
+        display: flexbox;
+        height: auto;
+        background-color: none;
+    }
+    .empresa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: none;
+        text-align: center;
+        margin-top: -10vh;
+    }
+    div.empresa{
+        margin-bottom: 5vh;
+    }
+    .titulo {
+        margin-bottom: -4vh;
+        margin-top: -1vh;
+    }
+    .descricao, .funcao, .restricao, span {
+        font-family: 'Times New Roman';
+        font-size: 16px;
+    }
+    b {
+        font-family: arial;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 22px;
+        padding: 3px;
+        word-break: break-all;
+    }
+    button {
+        margin-top: 1vh;
+        margin-bottom: 7vh;
+        border-radius: 10px;
+        padding: 5px;
+        color: #ffeaab;
+        border: 2px solid #efb300;
+        background-color: #efb300;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .mobile{
+        display: none;
+    }
+    nav {
+        display: flex;
+        margin-left: 3%;
+        height: auto;
+        background-color: none;
+    }
+    .flex-container span {
+        margin-top: 7vw;
+    }
+    .flex-container {
+        display: flexbox;
+        height: auto;
+        background-color: none;
+    }
+    .empresa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: none;
+        text-align: center;
+    }
+    .titulo {
+        margin-bottom: -4vh;
+        margin-top: -1vh;
+    }
+    .descricao, .funcao, .restricao, span {
+        font-family: 'Times New Roman';
+        font-size: 17px;
+    }
+    b {
+        font-family: arial;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h3 {
+        width: max-content;
+        font-size: 22px;
+        padding: 3px;
+        border-bottom: 2px solid black;
+    }
+    button {
+        margin-top: 1vh;
+        margin-bottom: 7vh;
+        border-radius: 10px;
+        padding: 5px;
+        color: #ffeaab;
+        border: 2px solid #efb300;
+        background-color: #efb300;
+    }
+}

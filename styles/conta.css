@@ -1,0 +1,234 @@
+@media screen and (max-width: 425px) {
+    header.header{
+        display: none;
+    }
+    .container div{
+        display: block;
+        margin-top: 30vh;
+        text-align: center;
+        background-color: none;
+    }
+    nav{
+        display: flex;
+        background-color: none;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    form{
+        width: 85vw;
+    }
+    .botao{
+        display: flex;
+        justify-content: center;
+        margin-top: 2vh;
+    }
+    .input{
+        height: 40px;
+        width: 85vw;
+        border: 1px solid black;
+    }
+    .submit{
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+        width: 35vw;
+        height: 5vh;
+    }
+    .erro-form{
+        color: red;
+        font-size: 15px;
+        left: 0px;
+    }
+    div.check-box{
+        display: flex;
+        float: left;
+    }
+    label.label{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vh;
+        margin-bottom: 1.5vh;
+    }
+    div.botao{
+        width: 100%;
+    }
+    .botao{
+        display: flex;
+        justify-content: center;
+        margin-top: 3vh;
+    }
+    .upgrade{
+        display: block;
+        margin-top: 5vh;
+        align-items: center;
+    }
+    .upgrade input{
+        background-color: #efb300;
+        border: 1px solid #efb300;
+        border-radius: 50px;
+        width: 100px;
+        height: 5vh;
+    }
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 1023px){
+    header.header{
+        display: none;
+    }
+    .container div{
+        display: block;
+        margin-top: 30vh;
+        text-align: center;
+        background-color: none;
+    }
+    nav{
+        display: flex;
+        background-color: none;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    form{
+        width: 45vw;
+    }
+    .botao{
+        display: flex;
+        justify-content: center;
+        margin-top: 2vh;
+    }
+    .input{
+        height: 40px;
+        width: 45vw;
+        border: 1px solid black;
+    }
+    .submit{
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+        width: 35vw;
+        height: 5vh;
+    }
+    .erro-form{
+        color: red;
+        font-size: 15px;
+        left: 0px;
+    }
+    div.check-box{
+        display: flex;
+        float: left;
+    }
+    label.label{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vh;
+        margin-bottom: 1.5vh;
+    }
+    div.botao{
+        width: 100%;
+    }
+    .botao{
+        display: flex;
+        justify-content: center;
+        margin-top: 3vh;
+    }
+    .upgrade{
+        display: block;
+        margin-top: 5vh;
+        align-items: center;
+    }
+    .upgrade input{
+        background-color: #efb300;
+        border: 1px solid #efb300;
+        border-radius: 50px;
+        width: 100px;
+        height: 5vh;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .mobile{
+        display: none;
+    }
+    .container{
+        position: absolute;
+        margin-top: 30vh;
+        width: 100vw;
+        text-align: center;
+    }
+    .container div{
+        display: inline;
+        margin-top: 30vh;
+        text-align: center;
+        background-color: none;
+    }
+    nav{
+        display: flex;
+        background-color: none;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    form{
+        width: max-content;
+        background-color: none;
+    }
+    .input{
+        height: 40px;
+        width: 35vw;
+        border: 1px solid black;
+    }
+    .submit{
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+        width: 7vw;
+        height: 5vh;
+    }
+    .erro-form{
+        color: red;
+        font-size: 15px;
+        left: 0px;
+    }
+    h5{
+        margin: 0px;
+    }
+    div.check-box{
+        display: flex;
+        float: left;
+    }
+    label.label{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vh;
+        margin-bottom: 1.5vh;
+    }
+    div.botao{
+        width: 100%;
+    }
+    .botao{
+        display: flex;
+        justify-content: center;
+        margin-top: 3vh;
+    }
+    .upgrade{
+        display: flex;
+        margin-top: 5vh;
+        align-items: center;
+    }
+    .upgrade input{
+        background-color: #efb300;
+        border: 1px solid #efb300;
+        border-radius: 50px;
+        margin-left: 1vw;
+        width: max-content;
+        height: 5vh;
+    }
+}

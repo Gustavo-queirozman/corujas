@@ -1,0 +1,195 @@
+@media screen and (max-width: 425px) {
+    .header.header{
+        display: none;
+    }
+    body, html {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    nav{
+        width: max-content;
+    }
+    form {
+        display: flex;
+        height: auto;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vh;
+        background-color: none;
+    }
+    input {
+        width: 85vw;
+        height: 40px;
+        border: 1px solid black;
+    }
+    textarea {
+        width: 85vw;
+        height: 35vh;
+        font-size: 15px;
+        border: 1px solid black;
+    }
+    input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+    input[type=number] {
+        -moz-appearance: textfield;
+        appearance: textfield;
+    }
+    form input.botao {
+        width: 30vw;
+        height: 5vh;
+        color: white;
+        margin-top: 2vh;
+        margin-bottom: 5.5vh;
+        border-radius: 3px;
+        border: 1px solid black;
+        background-color: black;
+    }
+    form div {
+        text-align: center;
+    }
+    .erro-form {
+        margin-left: -29.5vw;
+        color: red;
+        font-size: 13px;
+    }
+    .erro-form-text-area {
+        margin-left: -29.5vw;
+        color: red;
+        font-size: 13px;
+    }
+    h5{
+        height: max-content;
+    }
+}
+
+/*VERSÃO TABLET*/
+@media screen and (min-width: 426px) and (max-width: 1023px){
+    .header.header{
+        display: none;
+    }
+    body, html {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    nav{
+        width: max-content;
+    }
+    form {
+        display: flex;
+        height: auto;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vh;
+        background-color: none;
+    }
+    input {
+        width: 50vw;
+        height: 40px;
+        border: 1px solid black;
+    }
+    textarea {
+        width: 50vw;
+        height: 35vh;
+        font-size: 15px;
+        border: 1px solid black;
+    }
+    input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+    input[type=number] {
+        -moz-appearance: textfield;
+        appearance: textfield;
+    }
+    form input.botao {
+        width: 30vw;
+        height: 5vh;
+        color: white;
+        margin-top: 2vh;
+        margin-bottom: 5.5vh;
+        border-radius: 3px;
+        border: 1px solid black;
+        background-color: black;
+    }
+    form div {
+        text-align: center;
+    }
+    .erro-form {
+        margin-left: -29.5vw;
+        color: red;
+        font-size: 13px;
+    }
+    .erro-form-text-area {
+        margin-left: -29.5vw;
+        color: red;
+        font-size: 13px;
+    }
+    h5{
+        height: max-content;
+    }
+}
+/*VERSÃO PC*/
+@media screen and (min-width: 1024px) {
+    .mobile{
+        display: none;
+    }
+    body, html {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    form {
+        display: flex;
+        height: auto;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15vh;
+        background-color: none;
+    }
+    input {
+        width: 40vw;
+        height: 3.3vw;
+    }
+    textarea {
+        width: 40vw;
+        height: 20vw;
+        font-size: 15px;
+    }
+    input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+    input[type=number] {
+        -moz-appearance: textfield;
+        appearance: textfield;
+    }
+    form input.botao {
+        width: 25.5vw;
+        height: 3.3vw;
+        color: white;
+        margin-top: 2vh;
+        margin-bottom: 5.5vh;
+        border-radius: 3px;
+        border: 1px solid black;
+        background-color: black;
+    }
+    form div {
+        text-align: center;
+    }
+    .erro-form {
+        margin-left: -29.5vw;
+        color: red;
+        font-size: 13px;
+    }
+    .erro-form-text-area {
+        margin-left: -29.5vw;
+        color: red;
+        font-size: 13px;
+    }
+    h5{
+        margin: 0px;
+        font-weight: normal;
+        margin-bottom: -2vh;
+    }
+}

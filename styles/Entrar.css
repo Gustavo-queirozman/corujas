@@ -1,0 +1,181 @@
+@media screen and (max-width: 425px) {
+    .header {
+        display: none;
+    }
+    .Login {
+        display: block;
+        width: 100vw;
+        height: 50vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .Login div {
+        text-align: center;
+        width: 85vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Login form {
+        display: grid;
+        align-items: center;
+        padding: 5px;
+    }
+    .Login form h1 {
+        margin-top: 15vh;
+        margin-bottom: 3vh;
+    }
+    input {
+        width: 85vw;
+        height: 40px;
+        margin-bottom: 2vh;
+        border: 1px solid black;
+    }
+    .Login form span {
+        font-size: 15px;
+    }
+    .Login form span a {
+        display: inline;
+        font-size: 15px;
+        text-align: center;
+        color: black;
+    }
+    .Login form span a:visited {
+        color: black;
+    }
+    div.button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vh;
+        width: max-content;
+    }
+    .botao {
+        text-decoration: none;
+        border: 1px solid black;
+        border-radius: 3px;
+        width: 85vw;
+        height: 40px;
+        margin-bottom: 3vh;
+        color: white;
+        background-color: black;
+    }
+}
+
+/*VERSÃO TABLET*/
+@media screen and (min-width: 426px) and (max-width: 1023px) {
+    .header {
+        display: none;
+    }
+    .Login {
+        display: block;
+        width: 100vw;
+        height: 50vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .Login div {
+        text-align: center;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Login form {
+        display: grid;
+        align-items: center;
+        padding: 5px;
+    }
+    .Login form h1 {
+        margin-top: 15vh;
+        margin-bottom: 3vh;
+    }
+    input {
+        width: 300px;
+        height: 40px;
+        margin-bottom: 2vh;
+        border: 1px solid black;
+    }
+    .Login form span {
+        font-size: 15px;
+    }
+    .Login form span a {
+        display: inline;
+        font-size: 15px;
+        text-align: center;
+        color: black;
+    }
+    .Login form span a:visited {
+        color: black;
+    }
+    div.button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vh;
+        width: max-content;
+    } 
+    .botao {
+        text-decoration: none;
+        border: 1px solid black;
+        border-radius: 3px;
+        width: 300px;
+        height: 40px;
+        margin-bottom: 3vh;
+        color: white;
+        background-color: black;
+    }
+}
+/*VERSÃO PC*/
+
+@media screen and (min-width: 1024px) {
+    .mobile {
+        display: none;
+    }
+    .Login {
+        display: block;
+        width: 100vw;
+        height: 50vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .Login div {
+        text-align: center;
+        width: 25vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Login form {
+        display: grid;
+        align-items: center;
+        padding: 5px;
+    }
+    .Login form h1 {
+        margin-top: 30vh;
+    }
+    input {
+        width: 25vw;
+        height: 5vh;
+        margin-bottom: 2vh;
+    }
+    .Login form span {
+        font-size: 15px;
+    }
+    .Login form span a {
+        display: inline;
+        font-size: 15px;
+        text-align: center;
+        color: black;
+    }
+    .Login form span a:visited {
+        color: black;
+    }
+    .botao {
+        text-decoration: none;
+        border: 1px solid black;
+        border-radius: 3px;
+        width: 25.5vw;
+        height: 6vh;
+        margin-bottom: 3vh;
+        color: white;
+        background-color: black;
+    }
+}

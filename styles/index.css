@@ -1,0 +1,287 @@
+/*VERSÃO MOBILE*/
+
+@media screen and (max-width: 425px) {
+    @font-face {
+        font-family: 'GothamBold';
+        src: url(../GOTHAM-BOLD.TTF);
+    }
+    @font-face {
+        font-family: 'BrelaRegular';
+        src: url(../brelaregular.otf);
+    }
+    header.header{
+        display: none;
+    }
+    .pc {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+    .grid-container-pc {
+        display: none;
+    }
+    .version-mobile {
+        display: grid;
+    }
+    body {
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .item1 {
+        display: grid;
+        grid-area: home;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+        justify-content: center;
+    }
+    .item2 {
+        display: grid;
+        grid-area: textoHome;
+        justify-content: center;
+    }
+    .item3 {
+        display: grid;
+        grid-area: textoSobre;
+        justify-content: center;
+    }
+    .item4 {
+        display: grid;
+        grid-area: titulo;
+        justify-content: center;
+        text-align: center;
+    }
+    .item5 {
+        display: grid;
+        grid-area: sobre;
+        justify-content: center;
+        margin-top: 2vh;
+    }
+    .grid-container-mobile {
+        display: block;
+        margin-left: 3%;
+        margin-right: 3%;
+        /*background-color: blue;*/
+        align-items: center;
+    }
+    .grid-container>div {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px 0;
+    }
+    span {
+        font-family: 'GothamBold';
+        margin-top: 5vh;
+        font-size: 35px;
+        border-top: 1px solid rgba(255, 255, 255, 0.11);
+        padding: 3.5vh 0vh 2.2vh 0vh;
+    }
+    p {
+        font-family: 'BrelaRegular';
+        font-size: 4.3vw;
+    }
+    .img {
+        width: 238px;
+        height: 238px;
+    }
+    .item1 .img {
+        width: 202px;
+        height: auto;
+    }
+    img.version-mobile{
+        margin-bottom: 3vh;
+    }
+}
+
+/*VERSÃO TABLET*/
+
+@media screen and (min-width:426px) and (max-width:1024px) {
+    @font-face {
+        font-family: 'GothamBold';
+        src: url(../GOTHAM-BOLD.TTF);
+    }
+    @font-face {
+        font-family: 'BrelaRegular';
+        src: url(../brelaregular.otf);
+    }
+    header.header{
+        display: none;
+    }
+    .version-mobile {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+    body {
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        background-color: none;
+    }
+    .item1 {
+        display: grid;
+        grid-area: home;
+        align-items: stretch;
+    }
+    .item2 {
+        display: grid;
+        grid-area: textoHome;
+        justify-content: center;
+    }
+    .item3 {
+        display: grid;
+        grid-area: textoSobre;
+        justify-items: center;
+        justify-self: center;
+        justify-content: center;
+    }
+    .item4 {
+        display: grid;
+        grid-area: titulo;
+        text-align: center;
+    }
+    .item5 {
+        display: grid;
+        grid-area: sobre;
+        justify-self: end;
+    }
+    .item1 .img {
+        width: 30vw;
+        height: auto;
+    }
+    .item2 .img {
+        width: 28vw;
+        height: auto;
+        background-color: none;
+    }
+    .img {
+        width: 25vw;
+        height: auto;
+    }
+    .grid-container-pc {
+        display: grid;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 4vh;
+        grid-template-areas: 'home textoHome textoHome textoHome textoHome textoHome' 'titulo titulo titulo titulo titulo titulo' 'textoSobre textoSobre textoSobre textSobre sobre sobre';
+        grid-gap: 10px;
+        background-color: white;
+        align-items: center;
+    }
+    .grid-container>div {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px 0;
+    }
+    span {
+        font-family: 'GothamBold';
+        font-size: 4vw;
+        border-top: 1px solid rgba(255, 255, 255, 0.11);
+        padding: 7vw 0vw 3vw 0vw;
+    }
+    p {
+        word-break: normal;
+        font-family: 'BrelaRegular';
+        font-size: 2vw;
+        text-align: center;
+    }
+    .grid-container-mobile .item1{
+        display: none;
+    }
+    .grid-container-mobile .item2{
+        display: none;
+    }
+}
+
+/*VERSÃO PC*/
+
+@media screen and (min-width: 1025px) {
+    @font-face {
+        font-family: 'GothamBold';
+        src: url(../GOTHAM-BOLD.TTF);
+    }
+    @font-face {
+        font-family: 'BrelaRegular';
+        src: url(../brelaregular.otf);
+    }
+    .mobile{
+        display: none;
+    }
+    .version-mobile {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+    .pc{
+        display: grid;
+    }
+    body {
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .pc{
+        display: grid;
+    }
+    .item1 {
+        display: grid;
+        grid-area: home;
+        align-items: stretch;
+    }
+    .item2 {
+        display: grid;
+        grid-area: textoHome;
+        justify-content: center;
+    }
+    .item3 {
+        display: grid;
+        grid-area: textoSobre;
+        justify-items: start;
+    }
+    .item4 {
+        display: grid;
+        grid-area: titulo;
+        text-align: center;
+    }
+    .item5 {
+        display: grid;
+        grid-area: sobre;
+        justify-self: end;
+    }
+    .grid-container-pc{
+        display: grid;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 5vh;
+        grid-template-areas: 'home textoHome textoHome textoHome textoHome textoHome' 'titulo titulo titulo titulo titulo titulo' 'textoSobre textoSobre textoSobre sobre sobre sobre';
+        grid-gap: 10px;
+        background-color: white;
+        align-items: center;
+    }
+    .grid-container>div {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px 0;
+    }
+    span {
+        font-family: 'GothamBold';
+        margin-top: 5vh;
+        font-size: 40px;
+        border-top: 1px solid rgba(59, 58, 58, 0.11);
+        padding: 7vh 0vh 0vh 0vh;
+    }
+    p {
+        font-family: 'BrelaRegular';
+        font-size: 3vh;
+    }
+    img.img{
+        width: auto;
+        height: auto;
+    }
+    .grid-container-mobile{
+        display: none;
+    }
+    div.item1{
+        margin-top: 15vh;
+    }
+}

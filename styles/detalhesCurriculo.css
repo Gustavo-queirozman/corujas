@@ -1,0 +1,127 @@
+@media screen and (max-width: 1023px) {
+    header.header{
+        display: none;
+    }
+    nav {
+        display: flex;
+        margin-left: 3%;
+        height: auto;
+        background-color: none;
+    }
+    .flex-container {
+        display: inline;
+        height: auto;
+        margin-top: -5vh;
+        background-color: none;
+    }
+    .empresa {
+        display: flex;
+        background-color: green;
+    }
+    span {
+        font-family: 'Times New Roman';
+        font-size: 17px;
+    }
+    b {
+        font-family: arial;
+        font-size: 15px;
+    }
+    .mensagem {
+        display: flex;
+        margin-top: 1vh;
+        margin-bottom: 4vh;
+        border-radius: 10px;
+        padding: 5px;
+        color: #ffeaab;
+        border: 2px solid blue;
+        background-color: blue;
+    }
+    button.excluir {
+        display: flex;
+        margin-top: 1vh;
+        margin-bottom: 7vh;
+        border-radius: 10px;
+        padding: 5px;
+        color: white;
+        border: 2px solid red;
+        background-color: red;
+    }
+    button.enviar {
+        display: flex;
+        margin-top: 1vh;
+        margin-bottom: 7vh;
+        border-radius: 10px;
+        text-decoration: none;
+        padding: 5px;
+        color: white;
+        border: 2px solid #efb300;
+        background-color: #efb300;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .mobile{
+        display: none;
+    }
+    nav {
+        display: flex;
+        margin-left: 3%;
+        height: auto;
+        background-color: none;
+    }
+    .flex-container {
+        display: block;
+        height: auto;
+        margin-top: 10vh;
+        background-color: none;
+    }
+    .empresa {
+        display: flex;
+        background-color: green;
+    }
+    span {
+        font-family: 'Times New Roman';
+        font-size: 17px;
+    }
+    b {
+        font-family: arial;
+        font-size: 15px;
+    }
+    .mensagem {
+        display: flex;
+        margin-top: 1vh;
+        margin-bottom: 4vh;
+        border-radius: 10px;
+        padding: 5px;
+        color: #ffeaab;
+        border: 2px solid blue;
+        background-color: blue;
+    }
+    button.excluir {
+        display: flex;
+        margin-top: 1vh;
+        margin-bottom: 7vh;
+        border-radius: 10px;
+        padding: 5px;
+        color: white;
+        border: 2px solid red;
+        background-color: red;
+    }
+    button.enviar {
+        display: flex;
+        margin-top: 1vh;
+        margin-bottom: 7vh;
+        border-radius: 10px;
+        text-decoration: none;
+        padding: 5px;
+        color: white;
+        border: 2px solid #efb300;
+        background-color: #efb300;
+    }
+    a {
+        text-decoration: none;
+    }
+}

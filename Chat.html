@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/header.css">
+    <link rel="stylesheet" type="text/css" href="./styles/MainPage.css">
+    <link rel="stylesheet" type="text/css" href="Chat.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.map"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io-stream/0.9.1/socket.io-stream.js"></script>
+    <title>Corujas</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="=159369672_2830559943850837_6735875689925307654_n.png" alt="Logo">
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="#">Vagas</a></li>
+                <li><a href="CriarCurriculo.html">Meu currículo</a></li>
+                <li><a href="Chat.html">Conversas</a></li>
+                <li><a href="#">Notificação</a></li>
+                <li><a href="TrabalhadorDashboard.html">Conta</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <form id="chat">
+        <input type="text" name="username" placeholder="Digite o seu usuário">
+        <!--Se isso vier do Db fica melhor-->
+        <div class="messages"></div>
+        <input type="text" name="message" placeholder="Digite sua mensagem">
+        <button type="submit">Enviar</button>
+    </form>
+    <script type="text/javascript">
+        var socket = io('http://localhost:127.0.0.1')
+
+        function renderMessage(message) {
+            $('.messages').append('<div class="message"><strong>' + message.author + '</strong>: ' + message.message + '</div>')
+        }
+
+        socket.on('previousMessages', function (message) {
+            for (message of messages) {
+                renderMessage(message)
+            }
+        })
+
+        socket.on('receivedMessage', function (message) {
+            renderMessage(message)
+        })
+
+
+        $('#chat').submit(function (event) {
+            event.preventDefault()
+
+            var author = $('input[name=username]').val()
+            var message = $('input[name=message]').val()
+
+            if (author.length && message.length) {
+                var messageObject = {
+                    author: author,
+                    message: message,
+                }
+
+                renderMessage(messageObject)
+
+                socket.emit('sendMessage', messageObject)
+            }
+        })
+    </script>
+</body>
+
+</html>

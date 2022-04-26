@@ -1,0 +1,24 @@
+.btnMenu_open{
+    display: block;
+    background-image: url(../menuPreto.png);
+    background-position: 15px center;
+    background-size: 35px auto;
+    padding: 20px 15px 0px 40px;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+.btnMenu_close{
+    display: flex;
+    background-color: #efb300;
+    background-image: url(../menuBranco.png);
+    background-position: right 15px center;
+    background-size: 35px auto;
+    background-repeat: no-repeat;
+    padding: 20px 15px;
+    text-indent: -9999px;
+}
+
+li.menu-item{
+    background-color: white;
+}

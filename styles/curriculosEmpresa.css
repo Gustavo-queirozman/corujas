@@ -1,0 +1,400 @@
+@media screen and (max-width: 519px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header {
+        display: none;
+    }
+    nav {
+        display: flex;
+        height: auto;
+        background-color: none;
+    }
+    .curriculos {
+        background-color: none;
+        height: auto;
+        width: 100vw;
+        margin-top: 5vh;
+    }
+    .curriculos h1 {
+        display: flex;
+        font-size: 28px;
+        font-family: arial;
+        margin-bottom: 5px;
+        color: #efb300da;
+        justify-content: center;
+    }
+    b {
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    }
+    .salario, span, b.idade {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+    }
+    .grid-container {
+        display: grid;
+        color: #fff;
+        background-color: #ffffff;
+        grid-template-columns: 250px;
+        grid-template-rows: auto;
+        grid-column-gap: 10px;
+        grid-row-gap: 1%;
+        align-content: center;
+        justify-content: center;
+        grid-auto-flow: row;
+    }
+    .item {
+        background-color: #f5f4f4;
+        color: black;
+        border: 1px solid rgba(187, 187, 187, 0.651);
+        padding: 1rem;
+    }
+    .item:nth-child(even) {
+        background-color: #f5f4f4;
+    }
+    .grid-container a {
+        color: none;
+        text-decoration: none;
+    }
+    .grid-container a:visited {
+        color: none;
+    }
+    button {
+        margin-top: 4%;
+        padding: 5px;
+        border-radius: 10px;
+        color: #ffeaab;
+        border: 2px solid #efb300;
+        text-decoration: none;
+        background-color: #efb300;
+    }
+    button:hover {
+        background-color: #cd9900;
+        border: 2px solid #cd9900;
+        text-decoration: none;
+    }
+    .space {
+        display: flex;
+        height: 50px;
+    }
+}
+/*VERSÃO TABLET*/
+@media screen and (min-width: 520px) and (max-width: 789px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header {
+        display: none;
+    }
+    nav {
+        display: flex;
+        height: auto;
+        background-color: none;
+    }
+    .curriculos {
+        background-color: none;
+        height: auto;
+        width: 100vw;
+        margin-top: 5vh;
+    }
+    .curriculos h1 {
+        display: flex;
+        font-size: 28px;
+        font-family: arial;
+        margin-bottom: 5px;
+        color: #efb300da;
+        justify-content: center;
+    }
+    b {
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    }
+    .salario, span, b.idade {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+    }
+    .grid-container {
+        display: grid;
+        color: #fff;
+        background-color: #ffffff;
+        grid-template-columns: repeat(2, 250px);
+        grid-template-rows: auto;
+        grid-column-gap: 10px;
+        grid-row-gap: 1%;
+        align-content: center;
+        justify-content: center;
+        grid-auto-flow: row;
+    }
+    .item {
+        background-color: #f5f4f4;
+        color: black;
+        border: 1px solid rgba(187, 187, 187, 0.651);
+        padding: 1rem;
+    }
+    .item:nth-child(even) {
+        background-color: #f5f4f4;
+    }
+    .grid-container a {
+        color: none;
+        text-decoration: none;
+    }
+    .grid-container a:visited {
+        color: none;
+    }
+    button {
+        margin-top: 4%;
+        padding: 5px;
+        border-radius: 10px;
+        color: #ffeaab;
+        border: 2px solid #efb300;
+        text-decoration: none;
+        background-color: #efb300;
+    }
+    button:hover {
+        background-color: #cd9900;
+        border: 2px solid #cd9900;
+        text-decoration: none;
+    }
+    .space {
+        display: flex;
+        height: 50px;
+    }
+}
+
+/*VERSÃO TABLET 2*/
+@media screen and (min-width: 790px) and (max-width: 1125px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header {
+        display: none;
+    }
+    nav {
+        display: flex;
+        height: auto;
+        background-color: none;
+    }
+    .curriculos {
+        background-color: none;
+        height: auto;
+        width: 100vw;
+        margin-top: 5vh;
+    }
+    .curriculos h1 {
+        display: flex;
+        font-size: 28px;
+        font-family: arial;
+        margin-bottom: 5px;
+        color: #efb300da;
+        justify-content: center;
+    }
+    b {
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    }
+    .salario, span, b.idade {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+    }
+    .grid-container {
+        display: grid;
+        color: #fff;
+        background-color: #ffffff;
+        grid-template-columns: repeat(3, 250px);
+        grid-template-rows: auto;
+        grid-column-gap: 10px;
+        grid-row-gap: 1%;
+        align-content: center;
+        justify-content: center;
+        grid-auto-flow: row;
+    }
+    .item {
+        background-color: #f5f4f4;
+        color: black;
+        border: 1px solid rgba(187, 187, 187, 0.651);
+        padding: 1rem;
+    }
+    .item:nth-child(even) {
+        background-color: #f5f4f4;
+    }
+    .grid-container a {
+        color: none;
+        text-decoration: none;
+    }
+    .grid-container a:visited {
+        color: none;
+    }
+    button {
+        margin-top: 4%;
+        padding: 5px;
+        border-radius: 10px;
+        color: #ffeaab;
+        border: 2px solid #efb300;
+        text-decoration: none;
+        background-color: #efb300;
+    }
+    button:hover {
+        background-color: #cd9900;
+        border: 2px solid #cd9900;
+        text-decoration: none;
+    }
+    .space {
+        display: flex;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 1126px) and (max-width: 1349px){
+    .mobile {
+        display: none;
+    }
+    nav {
+        display: flex;
+        height: auto;
+        margin-left: 2vw;
+        background-color: none;
+    }
+    .curriculos {
+        background-color: none;
+        height: auto;
+        width: 100vw;
+        margin-top: 12vh;
+    }
+    .curriculos h1 {
+        font-size: 28px;
+        font-family: arial;
+        margin-bottom: 2vh;
+        color: #efb300da;
+    }
+    b {
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    }
+    .salario, span, b.idade {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+    }
+    .grid-container {
+        display: grid;
+        color: #fff;
+        background-color: #ffffff;
+        grid-template-columns: repeat(4, 250px);
+        grid-template-rows: 290px;
+        grid-column-gap: 10px;
+        grid-row-gap: 3.2%;
+        justify-content: start;
+        align-content: start;
+        grid-auto-flow: row;
+    }
+    .item {
+        background-color: #f5f4f4;
+        color: black;
+        border: 1px solid rgba(187, 187, 187, 0.651);
+        padding: 1rem;
+    }
+    .item:nth-child(even) {
+        background-color: #f5f4f4;
+    }
+    .grid-container a {
+        color: none;
+        text-decoration: none;
+    }
+    .grid-container a:visited {
+        color: none;
+    }
+    button {
+        margin-top: 4%;
+        padding: 5px;
+        border-radius: 10px;
+        color: #ffeaab;
+        border: 2px solid #efb300;
+        text-decoration: none;
+        background-color: #efb300;
+    }
+    button:hover {
+        background-color: #cd9900;
+        border: 2px solid #cd9900;
+        text-decoration: none;
+    }
+    .space {
+        height: 5vh;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    .mobile {
+        display: none;
+    }
+    nav {
+        display: flex;
+        height: auto;
+        margin-left: 2vw;
+        background-color: none;
+    }
+    .curriculos {
+        background-color: none;
+        height: auto;
+        width: 100vw;
+        margin-top: 12vh;
+    }
+    .curriculos h1 {
+        font-size: 28px;
+        font-family: arial;
+        margin-bottom: 2vh;
+        color: #efb300da;
+    }
+    b {
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    }
+    .salario, span, b.idade {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+    }
+    .grid-container {
+        display: grid;
+        color: #fff;
+        background-color: #ffffff;
+        grid-template-columns: repeat(5, 250px);
+        grid-template-rows: 290px;
+        grid-column-gap: 10px;
+        grid-row-gap: 3.2%;
+        justify-content: start;
+        align-content: start;
+        grid-auto-flow: row;
+    }
+    .item {
+        background-color: #f5f4f4;
+        color: black;
+        border: 1px solid rgba(187, 187, 187, 0.651);
+        padding: 1rem;
+    }
+    .item:nth-child(even) {
+        background-color: #f5f4f4;
+    }
+    .grid-container a {
+        color: none;
+        text-decoration: none;
+    }
+    .grid-container a:visited {
+        color: none;
+    }
+    button {
+        margin-top: 4%;
+        padding: 5px;
+        border-radius: 10px;
+        color: #ffeaab;
+        border: 2px solid #efb300;
+        text-decoration: none;
+        background-color: #efb300;
+    }
+    button:hover {
+        background-color: #cd9900;
+        border: 2px solid #cd9900;
+        text-decoration: none;
+    }
+    .space {
+        height: 5vh;
+    }
+}

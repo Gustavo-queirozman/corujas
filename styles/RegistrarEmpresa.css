@@ -1,0 +1,176 @@
+@media screen and (max-width: 425px) {
+    header.header {
+        display: none;
+    }
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: none;
+    }
+    form h1 {
+        font-size: 22px;
+        margin-top: 7vh;
+        margin-bottom: 1vh;
+    }
+    form h2 {
+        font-size: 22px;
+        margin-top: 6vh;
+        margin-bottom: 1vh;
+    }
+    form div {
+        width: 85vw;
+        background-color: none;
+        float: left;
+    }
+    input {
+        width: 85vw;
+        height: 40px;
+        border: 1px solid black;
+    }
+    input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+    input[type=number] {
+        -moz-appearance: textfield;
+        appearance: textfield;
+    }
+    .botao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0px;
+        background-color: none;
+    }
+    .submit {
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        width: 40vw;
+        background-color: black;
+        color: white;
+        border: black;
+    }
+    .erro-form {
+        font-size: 13px;
+        margin-left: 0px;
+        color: red;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1023px) {
+    .header.header {
+        display: none;
+    }
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: none;
+    }
+    form h1 {
+        font-size: 22px;
+        margin-top: 22vh;
+        margin-bottom: 1vh;
+    }
+    form h2 {
+        font-size: 22px;
+        margin-top: 6vh;
+        margin-bottom: 1vh;
+    }
+    form div {
+        width: 300px;
+        margin-left: 0.8vw;
+        background-color: none;
+        float: left;
+    }
+    input {
+        width: 300px;
+        height: 40px;
+        border: 1px solid black;
+    }
+    input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+    input[type=number] {
+        -moz-appearance: textfield;
+        appearance: textfield;
+    }
+    .botao {
+        text-align: center;
+        margin: 0px;
+        width: 25.5vw;
+        background-color: none;
+    }
+    .submit {
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        width: 20vw;
+        background-color: black;
+        color: white;
+        border: black;
+    }
+    .erro-form {
+        font-size: 13px;
+        margin-left: 0px;
+        color: red;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .mobile {
+        display: none;
+    }
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: none;
+    }
+    form h1 {
+        font-size: 22px;
+        margin-top: 22vh;
+        margin-bottom: 1vh;
+    }
+    form h2 {
+        font-size: 22px;
+        margin-top: 6vh;
+        margin-bottom: 1vh;
+    }
+    form div {
+        width: 25vw;
+        margin-left: 0.8vw;
+        background-color: none;
+        float: left;
+    }
+    input {
+        width: 25vw;
+        height: 3.3vw;
+    }
+    input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+    input[type=number] {
+        -moz-appearance: textfield;
+        appearance: textfield;
+    }
+    .botao {
+        text-align: center;
+        margin: 0px;
+        width: 25.5vw;
+        background-color: none;
+    }
+    .submit {
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        width: 20vw;
+        background-color: black;
+        color: white;
+        border: black;
+    }
+    .erro-form {
+        font-size: 13px;
+        margin-left: 0px;
+        color: red;
+    }
+}

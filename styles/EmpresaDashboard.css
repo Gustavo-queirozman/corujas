@@ -1,0 +1,73 @@
+@media screen and (max-width: 1023px) {
+    header.header{
+        display: none;
+    }
+    .nav {
+        display: flex;
+        height: 80vh;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1%;
+        background-color: none;
+    }
+    .vagas {
+        text-align: center;
+        margin-top: 10vh;
+        background-color: none;
+    }
+    .nav h1 {
+        font-size: 38px;
+    }
+    .curriculos {
+        margin-top: 10vh;
+    }
+    button {
+        height: 35px;
+        width: max-content;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-top: 2vh;
+        background-color: black;
+    }
+    div.vagas{
+        height: max-content;
+    }    
+}
+
+@media screen and (min-width: 1024px) {
+    .mobile{
+        display: none;
+    }
+    .nav {
+        display: flex;
+        height: 80vh;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1%;
+        background-color: none;
+    }
+    .vagas {
+        text-align: center;
+        margin-top: 10vh;
+        background-color: none;
+    }
+    .nav h1 {
+        font-size: 38px;
+    }
+    .curriculos {
+        margin-top: 10vh;
+    }
+    button {
+        height: 2.7vw;
+        width: 7vw;
+        color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        background-color: black;
+    }
+}
